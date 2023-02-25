@@ -1,0 +1,210 @@
+body{
+    font-family: 'Raleway';
+    background: #243119;
+    font-style:normal;
+    color:#F9F8F8;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    color: #F9F8F8;
+    padding-top: 30px;
+   
+}
+
+.nav{
+    background: #BB9F06;
+    height:100px;
+}
+
+.heroContainer{
+    display: flex;
+    height: 900px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    margin:0;
+    margin-bottom: 20px;
+    width:250px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+.ourRoles {
+    width:250px;
+    
+}
+
+.ourRoles li{
+    width:250px;
+}
+
+.heroImage{
+    
+    margin-top: 50px;
+    width:1000px;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    gap:150px;
+    
+}
+
+.duration h2{
+    width: 300px;
+    
+}
+
+.duration{
+    text-align: center;
+}
+
+.tools{
+    text-align: center;
+}
+
+
+
+h3{
+    text-align: center;
+    padding-top: 30px;
+    color:#BB9F06;
+    font-weight: 800;
+    font-size: 100px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 5px;
+}
+
+.problemContainer{
+
+    display: flex;
+    flex-direction: column;
+    height:1600px;
+    background:#F9F8F8;
+    color:black;
+    
+}
+
+.problemTopText{
+    
+    font-size: 32px;
+    padding-top: 50px;
+    align-self: center;
+    text-align: center;
+    width: 800px;
+
+}
+
+h4{
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    margin:0;
+    margin-bottom: 30px;
+    
+}
+
+.problemMiddleText{
+    font-size: 32px;
+    align-self: center;
+    text-align: center;
+    width: 800px;
+}
+
+.problemBottomText{
+    font-size: 32px;
+    align-self: center;
+    
+    
+}
+
+.originalPagesContainer{
+    
+    height:3300px;
+
+}
+
+.originalPagesContainer h3{
+    text-underline-offset: 35px;
+    text-decoration-thickness: 5px;
+}
+
+
+
+.ogPictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+.ogPictures h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.donateVolunteer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donateImage{
+    width:1200px;
+}
+
+.volunteerImage{
+    width:1200px;
+}
+
+.donateVolunteer h1{
+    margin-bottom: 20px;
+    padding-top: 50px;
+
+}
+
+.userResearchContainer{
+    display: flex;
+    flex-direction: column;
+    background: #F9F8F8;
+    color:black;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+
+.researchLeftSide{
+    text-align: left;
+    width:40%;
+}
+
+.researchLeftSide h4{
+    text-align: left;
+    padding:0;
+}
+
+.researchInsightsContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.researchImg{
+    height:600px;
+}
