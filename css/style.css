@@ -6,6 +6,10 @@ body{
 }
 
 
+.heroHeader{
+    color: #BB9F06;
+}
+
 h1{
     text-align: center;
     font-weight: 600;
@@ -18,7 +22,17 @@ h1{
 .nav{
     background: #BB9F06;
     height:100px;
+    align-items: center;
 }
+
+.nav a{
+    display:flex;
+    color: #243119;
+    font-size: 28px;
+    gap:30px;
+}
+
+
 
 .heroContainer{
     display: flex;
@@ -96,6 +110,11 @@ h3{
     
 }
 
+.problemContainer h3{
+    color:#243119;
+    text-decoration-color: #BB9F06;
+}
+
 .problemTopText{
     
     font-size: 32px;
@@ -107,6 +126,7 @@ h3{
 }
 
 h4{
+    color:#243119;
     font-weight: 600;
     font-size: 60px;
     text-align: center;
@@ -154,7 +174,10 @@ h4{
 .ogPictures h1{
     font-size: 48px;
     margin-bottom: 20px;
+    
 }
+
+
 
 .donateVolunteer{
     display: flex;
@@ -184,6 +207,49 @@ h4{
     color:black;
     text-align: center;
     font-size: 32px;
+    height:1050px;
+}
+
+.userResearchContainer h3{
+    color:#243119;
+    text-decoration-color: #BB9F06;
+}
+
+.researchLeftSide h4{
+    color:#243119;
+}
+
+
+.swotContainer{
+    display: flex;
+    justify-content: center;
+    background: #F9F8F8;
+}
+
+.storyboardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.storyboardContainer h3{
+    margin-bottom: 30px;
+    text-underline-offset: 30px;
+}
+
+
+.topResearchText{
+    display: flex;
+    min-width: fit-content;
+    margin-top: 20px;
+ 
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.topResearchText p{
+    width:1435px;
 }
 
 
@@ -207,4 +273,137 @@ h4{
 
 .researchImg{
     height:600px;
+}
+
+.userPersonaContainer{
+    display: flex;
+    
+    
+}
+
+.persona{
+    width: 1920px;
+}
+
+.midFiContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.midFiHeaders{
+    min-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap:90px;
+}
+.midfiHome, .midfiResidents{
+    width:40%;
+}
+.midfiHomeandResidents{
+    display: flex;
+    flex-direction: row;
+}
+
+.midfiPrototypes{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.midfiMobilePrototypes{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.styleGuideContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F8F8;
+    justify-content: center;
+}
+
+.styleGuideContainer h3{
+    margin-bottom: 30px;
+    text-underline-offset: 30px;
+    color: #243119;
+    text-decoration-color: #BB9F06;
+}
+
+.styleGuide1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.userTestingContainer{
+    background-color: #F9F8F8;
+    padding-bottom: 30px;
+}
+
+.userTestingContainer h3{
+    text-underline-offset: 30px;
+    color: #243119;
+    text-decoration-color: #BB9F06;
+    padding-top: 100px;
+}
+
+.userTestingContainer ul{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color:black;
+    font-size: 36px;
+    justify-content: center;
+    padding:0px;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+}
+
+.userTestingContainer li{
+    margin-top: 20px;
+    
+}
+
+.hifiContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.desktopHifis{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.hifiMobile{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.conclusionContainer{
+    height:500px;
+}
+
+.conclusionText{
+    display: flex;
+    min-width: fit-content;
+    margin-top: 20px;
+ 
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.conclusionText p{
+    width:1435px;
+    font-size: 36px;
+}
+.conclusionContainer h3{
+    padding-top: 50px;
 }
